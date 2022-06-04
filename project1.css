@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url(images/pexels-aleksandar-pasaric-2603464.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-attachment: fixed;
+}
+
+header .background-header {
+    background: #4a914e85;
+    height: 60vh;
+}
+
+header .background-header h1 {
+    font-style: italic;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+
+}
+
+.headercon .headerconpost {
+    animation: headercon infinite 1s running normal;
+}
+
+@keyframes headercon {
+    0% {
+        background-image: url(images/person-black-and-white-photography-meeting-monochrome-people-socializing-1947-pxhere.com.jpg);
+    }
+
+    10% {
+        background-image: url(images/pexels-junior-teixeira-2047905.jpg);
+    }
+
+    40% {
+        background-image: url(images/pexels-luis-quintero-3612706.jpg);
+    }
+
+    60% {
+        background-image: url(images/pexels-jiarong-deng-1034662.jpg);
+    }
+
+}
+
+.program h2 {
+    text-align: center;
+}
+
+.program p {
+    text-align: justify;
+}
+
+.program span {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.program button {
+    background: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+.program button:hover {
+    border: none;
+    background-color: #198754;
+    color: white;
+    transition: 2s all ease-in-out;
+}
+
+.socialmedia {
+    position: sticky;
+    top: 0;
+}
+
+section {
+    text-align: justify;
+}
+
+section .row {
+    width: 90%;
+}
