@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: #1a1818;
+}
+
+.search {
+    border: 1px solid white;
+    padding: 4px 15px 4px 15px;
+    border-radius: 5px;
+
+}
+
+
+.search input {
+    background: none;
+    border: none;
+    color: #fff;
+
+}
+
+.search input::placeholder {
+    color: #fff;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search button {
+    border: none;
+    background: none;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    border: none;
+    outline: none !important;
+}
+
+#myNav ul li a {
+    font-style: italic;
+}
+
+#myNav ul li a:hover {
+    color: #fff;
+    transition: 1s all ease-in-out;
+    transform: translateY(2px);
+    border-bottom: 2px solid #fff;
+    padding-bottom: 2px;
+    border-radius: 30px;
+    font-style: normal;
+}
+
+header {
+    height: 80vh;
+    background: url(images/pexels-kai-pilger-1128440.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    animation: header infinite 7s normal running;
+}
+
+@keyframes header {
+    0% {
+        background: url(images/pexels-cristian-benavides-2049411.jpg);
+        background-position: center;
+        background-size: cover;
+
+
+    }
+
+    50% {
+        background: url(images/pexels-tima-miroshnichenko-4988139.jpg);
+        background-position: center;
+        background-size: cover;
+
+
+    }
+
+    100% {
+        background: url(images/pexels-kai-pilger-1128440.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+}
+
+header .backdrop {
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.641);
+}
+
+header .backdrop h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+header .backdrop .header-con {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.header-con button {
+    background: transparent;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.header-con button:hover {
+    background-color: white;
+    border: none;
+    color: #000000;
+}
+
+.header-con p {
+    color: #bebcbc;
+}
+
+.card {
+    border: none;
+    background: transparent;
+}
+
+.card h1 {
+    color: #bebcbc;
+    font-size: 2rem;
+}
+
+section {
+    background-color: #0e0b0b;
+    padding: 40px 0 60px 0;
+
+
+}
+
+section h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    padding: 12px 0 12px 0;
+    color: #dddada;
+}
+
+section .section-content {
+    padding: 12px 0;
+    background: #1a1818;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+section .section-content>div {
+    margin-bottom: 20px
+}
+
+section .section-content button {
+    padding: 13px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-style: italic;
+
+}
+
+section .section-content button:hover {
+    transition: 1s all ease-out;
+    border: none;
+    color: #000000;
+    background: white;
+    transform: translateY(6px);
+}
+
+@media screen and (max-width:990px) {
+    #myNav ul li a:hover {
+        border: none;
+        border-radius: none;
+        padding-left: 20px;
+
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    nav {
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+
+    .search {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .search input {
+        width: 60%;
+    }
+
+    .search button {
+        width: 40%;
+    }
+
+}
