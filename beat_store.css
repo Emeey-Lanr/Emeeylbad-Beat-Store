@@ -147,6 +147,7 @@ header .backdrop .header-con {
 section {
     background-color: #0e0b0b;
     padding: 40px 0 60px 0;
+    box-sizing: border-box;
 
 
 }
@@ -189,6 +190,102 @@ section .section-content button:hover {
     transform: translateY(6px);
 }
 
+section .section-content .smhouse {
+    padding-right: 20px;
+}
+
+section .section-content .sectionmore {
+    color: #bebcbc;
+    width: 5%;
+    font-size: 2rem;
+    margin: 0 0 0 auto;
+}
+
+
+section .section-content .sectionmore:hover {
+    background: linear-gradient(20deg, #1b1a1a, #323131);
+    transition: 1s all ease-out;
+    transform: translateY(10px);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 2px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+section .section-content .sectionmore a {
+    text-decoration: none;
+    color: #bebcbc;
+}
+
+section .section-content .sectionmore a:hover {
+    transition: 1s all ease-in-out;
+    color: white;
+
+
+}
+
+.section2 {
+    background-color: #1a1818;
+    padding: 0;
+    padding: 40px 0 35px 0;
+    box-sizing: border-box;
+    animation: section2 infinite 6s running normal;
+}
+
+@keyframes section2 {
+    0% {
+        background-image: url(images/light-black-and-white-white-night-atmosphere-darkness-90773-pxhere.com.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    50% {
+        background: url(images/man-black-and-white-people-technology-road-street-596539-pxhere.com.jpg);
+
+    }
+
+    100% {
+        background: url(images/light-black-and-white-white-night-atmosphere-darkness-90773-pxhere.com.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+
+}
+
+.section2child {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #0e0b0b;
+    border-radius: 5px;
+    padding: 40px 0 40px 0;
+    box-sizing: border-box;
+}
+
+.section2child>div {
+    margin-bottom: 10px;
+}
+
+.section2child>div button {
+    background: none;
+    border: 1px solid #fff;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 5px;
+    width: 60%;
+}
+
+.section2child>div button:hover {
+    transition: 1s ease-out all;
+    transform: translateY(5px);
+    background: #fff;
+    border: none;
+    color: black;
+
+}
+
 @media screen and (max-width:990px) {
     #myNav ul li a:hover {
         border: none;
@@ -197,6 +294,17 @@ section .section-content button:hover {
 
     }
 
+}
+
+@media screen and (max-width:736px) {
+    .section2child {
+        background: none;
+    }
+
+    .section2child>div button {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:400px) {
