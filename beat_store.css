@@ -286,6 +286,144 @@ section .section-content .sectionmore a:hover {
 
 }
 
+.section3 .section3row {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.section3 .section3row>div {
+    margin-bottom: 30px;
+}
+
+.section3 .section3row h1 {
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding: 12px 0 12px 0;
+    color: #dddada;
+}
+
+.section3 .section3row p {
+    color: #bebcbc;
+    font-size: 0.9rem;
+}
+
+
+.section3 .section3row .card button {
+    padding: 13px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-style: italic;
+
+}
+
+.section3 .section3row .card button:hover {
+    transition: 1s all ease-out;
+    border: none;
+    color: #000000;
+    background: white;
+    transform: translateY(6px);
+}
+
+.section3 .section3row .btn a {
+    text-decoration: none;
+    color: #dddada;
+    padding-top: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.section3 .section3row .btn {
+    padding: 13px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-style: italic;
+}
+
+footer {
+    width: 100%;
+    background-color: #000000;
+    padding-top: 10px;
+}
+
+footer .socialhandles {
+    width: 50%;
+    padding: 10px 0;
+    margin: 0 auto;
+    border: 1px solid #323131;
+    background-color: #0e0b0b;
+    border-radius: 10px;
+}
+
+footer .socialhandles:hover {
+    transition: 1s all ease-in;
+    background-color: #fff;
+    color: #000000;
+    transform: translateY(10px);
+}
+
+footer .socialhandles a {
+    color: #bebcbc;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 30px 0 30px;
+}
+
+footer .socialhandles a:hover {
+    transition: 1s all ease-out;
+    color: #000000;
+    transform: translateX(5px);
+}
+
+footer .footerrow {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #1a1818;
+    padding-top: 30px;
+}
+
+footer .footerrow>div h1 {
+    font-size: 1.5rem;
+    color: #bebcbc;
+
+
+}
+
+footer .footerrow>div ul li {
+    list-style: none;
+    line-height: 3;
+
+
+}
+
+.footerrow>div ul li a {
+    text-decoration: none;
+    color: #989696;
+
+}
+
+.footerrow>div ul li a:hover {
+    transition: 1s all ease-in-out;
+    transform: translateY(10px);
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.copyright {
+    padding: 10px 0;
+}
+
+.copyright p {
+    color: #bebcbc;
+}
+
 @media screen and (max-width:990px) {
     #myNav ul li a:hover {
         border: none;
